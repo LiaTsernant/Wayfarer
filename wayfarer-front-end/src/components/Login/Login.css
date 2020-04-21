@@ -1,0 +1,38 @@
+.form {
+    width: 40%;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 100px;
+}
+.ui.form.loginForm label{
+    font-size: 30px;
+    margin: 15px;
+}
+
+.ui.form.loginForm input {
+  border-radius: 13px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border: solid 1px #979797;
+  height: 60px;
+  font-family: 'Montserrat';
+  font-size: 25px;
+}
+.ui.form.loginForm input:focus {
+  border-radius: 13px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border: solid 1px #979797;
+  height: 60px;
+  font-family: 'Montserrat';
+  font-size: 25px;
+}
+
+.ui.submit.black.button.submitButton {
+    font-family: 'Raleway';
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  width: 100px;
+}
+
+#formTitle {
+    font-family: 'Raleway';
+    font-size: 60px;
+}

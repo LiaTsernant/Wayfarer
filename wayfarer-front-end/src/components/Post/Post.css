@@ -1,0 +1,12 @@
+.ui.cards {
+    max-height: 60vh;
+    overflow-x: scroll;
+}
+.ui.cards .card {
+    /* background-color: blue; */
+    font-family: 'Montserrat';
+}
+.postLink {
+    text-align: left;
+    margin: 10px;
+}

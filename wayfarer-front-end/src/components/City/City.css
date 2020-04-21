@@ -1,0 +1,21 @@
+.city {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.city img{
+    width: 500px;
+}
+.cityText {
+    display: block;
+}
+
+#cityName {
+    font-family: 'SignPainter';
+    font-size: 120px;
+}
+
+#cityCard {
+    margin: 0;
+    margin-left: 50px;
+}

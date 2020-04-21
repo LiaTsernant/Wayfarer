@@ -1,0 +1,17 @@
+.upload {
+    font-size: 15px;
+    height: 30px;
+}
+
+.upload button {
+    margin-top: 10px;
+}
+
+.upload h5 {
+    margin-top: 10px;
+}
+
+center {
+    position: relative;
+    z-index: 2;
+  }

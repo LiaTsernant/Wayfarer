@@ -1,0 +1,28 @@
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./fonts/Montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: 'SignPainter';
+  src: url(./fonts/SignPainter.ttc);
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url(./fonts/Raleway/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: 'Raleway-SemiBold';
+  src: url(./fonts/Raleway/Raleway-SemiBold.ttf);
+}
+#homeTitle {
+  font-family: 'SignPainter';
+  font-size: 150px;
+}
+#subheader {
+  font-family: 'Raleway';
+  font-size: 50px;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}

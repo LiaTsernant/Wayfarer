@@ -1,0 +1,19 @@
+.image {
+    width: 150px;
+    margin: 0 auto;
+    /* margin: 10px; */
+}
+.image img{
+    
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.ui.fluid.card {
+    width: 60%;
+    margin: 20px;
+    margin: 0 auto;
+}
+div.column {
+  margin-top: 20px;
+}
+
