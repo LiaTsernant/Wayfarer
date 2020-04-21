@@ -10,3 +10,8 @@
 .upload h5 {
     margin-top: 10px;
 }
+
+center {
+    position: relative;
+    z-index: 2;
+  }

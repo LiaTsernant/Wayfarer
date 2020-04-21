@@ -1,6 +1,6 @@
 const db = require("../models");
 const bcrypt = require("bcryptjs");
-let AWS = require('aws-sdk');
+let AWS = require('aws-sdk'); 
 // Set the region 
 AWS.config.update({region: 'us-west-1'}); //US West (N. California)
 let sendEmail = require('../aws_ses');
@@ -41,7 +41,7 @@ const register = (req, res) => {
                     res.status(201).json({status: 201, user: resUser, message: "User Created!" });
 
                     // AUTO SENDING EMAIL
-                    // sendEmail(resUser.email, resUser.firstName);
+                    sendEmail(resUser.email, resUser.firstName);
                 });
             });
         });

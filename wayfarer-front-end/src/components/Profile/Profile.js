@@ -2,7 +2,7 @@ import React from 'react';
 import UserApi from '../../api/UserApi';
 import './Profile.css';
 import PostContainer from '../../containers/PostContainer/PostContainer';
-import UploadPhoto from '../UploadPhoto/UploadPhoto';
+import UploadPhoto from '../UploadPhoto/UploadPhoto'; 
 
 class Profile extends React.Component {
     state = {
@@ -121,7 +121,7 @@ class Profile extends React.Component {
 
             <img className="ui centered medium image" id="circular-image" src={this.state.imgSrc ? this.state.imgSrc : this.state.user.photo}/>
           <div className="joinDate">Join Date: {date.toLocaleDateString()}</div>  
-          {/* <UploadPhoto setNewProfileLink={ this.setNewProfileLink }/> */}
+          <UploadPhoto setNewProfileLink={ this.setNewProfileLink }/>
 
             <form className="ui form profileForm" onSubmit={this.submit}>
                 <div className="fields" style={{flexDirection: "column"}}>

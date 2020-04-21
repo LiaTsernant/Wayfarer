@@ -21,6 +21,8 @@
 }
 
 .ui.form.profileForm label{
+  width: 30px;
+    padding-top: 15px;
     font-size: 25px;
     margin: 15px;
 }
