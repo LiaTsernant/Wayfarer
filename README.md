@@ -1,6 +1,7 @@
 # Sleepy Town
+![Wayfarer](wayfarer.jpg)
 
-## User Stories
+### User Stories
 
 * Users can create an account to login to Sleepy Town.
 * Users receive a welcome email, thanking them for signing up.
@@ -8,7 +9,7 @@
 * Users can also visit the Cities page where there is a list of fantasy cities.
 * Once on the Cities page, users can write, edit and delete posts on their favorite fantasy cities.
 
-## Techhnologies Used
+### Techhnologies Used
 
 * Express
 * MongoDB
@@ -18,9 +19,12 @@
 * AWS SES
 * Front-end Framework: Semantic UI
 * Conceptualization: Sketch
-* Sleepless Nights
 
-### Special thanks to Yoda and Obi-Wan
+### Team
+- Jacob Kleiman
+- Yulia Tsernant
+- Kristine Ilano
+- Aurelie Verrot
 
 
 
